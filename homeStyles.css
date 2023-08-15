@@ -1,0 +1,72 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-family: "Arial", sans-serif;
+}
+h1,
+h2 {
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	text-align: center; /* Center inline elements or text */
+}
+.image-container {
+	position: relative;
+	width: 100vw; /* 100% of the viewport width */
+	height: 75vh; /* 100% of the viewport height */
+	overflow: hidden; /* This will ensure any oversized image or text doesn't spill outside the container */
+}
+
+.image-container img {
+	width: 100%;
+	height: auto;
+	display: block; /* This removes any space below the image */
+}
+
+.overlay-text {
+	position: absolute;
+	text-align: center;
+	top: 50%; /* center vertically */
+	left: 50%; /* center horizontally */
+	transform: translate(-50%, -50%); /* adjust for true centering */
+	color: white; /* text color */
+	font-size: 48px; /* adjust as needed */
+	font-weight: bold; /* adjust as needed */
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 1); /* optional: adds a shadow for better readability */
+}
+
+.location {
+	display: flex;
+	margin-left: 16px;
+}
+
+.topic {
+	text-decoration: underline; /* Add underline */
+	font-style: italic; /* Make font italic */
+	color: rgba(114, 20, 207, 0.66);
+}
+
+.center-container {
+	display: flex;
+	justify-content: center;
+}
+.button {
+	background-color: rgb(144, 20, 207); /* Green background */
+	border: none; /* No border */
+	color: white; /* White text */
+	padding: 15px 32px; /* Padding around text */
+	text-align: center; /* Centered text */
+	text-decoration: none; /* No underline */
+	display: inline-block; /* Display as inline-block */
+	font-size: 16px; /* Set font size */
+	margin: 4px 2px; /* Some margin */
+	cursor: pointer; /* Pointer cursor on hover */
+	border-radius: 4px; /* Rounded corners */
+	display: block; /* Make the button a block-level element */
+}
+
+/* Hover effect */
+.button:hover {
+	background-color: rgba(114, 20, 207, 0.66); /* Darker green on hover */
+}

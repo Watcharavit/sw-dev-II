@@ -1,0 +1,49 @@
+body {
+	font-family: "Arial", sans-serif; /* Using Arial as the font, but you can replace it with any other font */
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h2 {
+	background-color: rgb(144, 20, 207); /* Dark gray background */
+	color: #fff; /* White text */
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+form {
+	background-color: #f4f4f4; /* White background */
+	padding: 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+	border-radius: 16px;
+	margin-top: 20px;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 8px;
+	border: 1px solid #cccccc; /* Light gray border */
+	border-radius: 8px;
+}
+
+select {
+	width: 50%;
+	padding: 8px;
+	margin-bottom: 8px;
+	border: 1px solid #cccccc;
+	border-radius: 8px;
+}
+
+input[type="checkbox"] {
+	margin-right: 8px;
+}
+
+label {
+	margin-bottom: 8px;
+	display: inline-block;
+}
