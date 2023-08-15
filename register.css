@@ -20,7 +20,8 @@ form {
 	padding: 40px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 	border-radius: 16px;
-	margin-top: 20px;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 input[type="text"] {
@@ -46,4 +47,23 @@ input[type="checkbox"] {
 label {
 	margin-bottom: 8px;
 	display: inline-block;
+}
+
+.button {
+	background-color: rgb(144, 20, 207); /* Green background */
+	border: none; /* No border */
+	color: white; /* White text */
+	padding: 15px 32px; /* Padding around text */
+	text-align: center; /* Centered text */
+	text-decoration: none; /* No underline */
+	display: inline-block; /* Display as inline-block */
+	font-size: 16px; /* Set font size */
+	margin: 4px 2px; /* Some margin */
+	cursor: pointer; /* Pointer cursor on hover */
+	border-radius: 4px; /* Rounded corners */
+}
+
+/* Hover effect */
+.button:hover {
+	background-color: rgba(114, 20, 207, 0.66); /* Darker green on hover */
 }
